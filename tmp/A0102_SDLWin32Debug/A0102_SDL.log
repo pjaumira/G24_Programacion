@@ -1,0 +1,134 @@
+﻿  Player.cpp
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Types.h(41,25): warning C4244: '=': conversión de 'clock_t' a 'float'; posible pérdida de datos
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Player.cpp(130,26): error C2196: el valor de case 'Player::numPlayer::P1' ya se ha utilizado
+  Source.cpp
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Types.h(41,25): warning C4244: '=': conversión de 'clock_t' a 'float'; posible pérdida de datos
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(101,10): error C2039: "vector": no es un miembro de "std"
+D:\Visual Studio 2019\VC\Tools\MSVC\14.27.29110\include\map(25): message : vea la declaración de 'std'
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(101,16): error C2065: 'vector': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(101,24): error C2059: error de sintaxis: '>'
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(103,66): error C3083: 'EPlayerType': el símbolo situado a la izquierda de '::' debe ser un tipo
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(103,79): error C2039: "PL1": no es un miembro de "Player"
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Player.h(6): message : vea la declaración de 'Player'
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(103,82): error C2065: 'PL1': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(104,5): error C2065: 'players': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(106,66): error C3083: 'EPlayerType': el símbolo situado a la izquierda de '::' debe ser un tipo
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(106,79): error C2039: "PL2": no es un miembro de "Player"
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Player.h(6): message : vea la declaración de 'Player'
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(106,82): error C2065: 'PL2': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(107,5): error C2065: 'players': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(190,25): error C3861: 'VEC2': no se encontró el identificador
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(209,91): error C2653: 'EInputKeys': no es un nombre de clase o espacio de nombres
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(209,88): error C2065: 'ESC': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(211,84): error C2653: 'EInputKeys': no es un nombre de clase o espacio de nombres
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(211,83): error C2065: 'W': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(212,84): error C2653: 'EInputKeys': no es un nombre de clase o espacio de nombres
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(212,83): error C2065: 'S': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(213,84): error C2653: 'EInputKeys': no es un nombre de clase o espacio de nombres
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(213,83): error C2065: 'D': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(214,84): error C2653: 'EInputKeys': no es un nombre de clase o espacio de nombres
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(214,83): error C2065: 'A': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(216,89): error C2653: 'EInputKeys': no es un nombre de clase o espacio de nombres
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(216,87): error C2065: 'UP': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(217,91): error C2653: 'EInputKeys': no es un nombre de clase o espacio de nombres
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(217,87): error C2065: 'DOWN': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(218,92): error C2653: 'EInputKeys': no es un nombre de clase o espacio de nombres
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(218,87): error C2065: 'RIGHT': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(219,91): error C2653: 'EInputKeys': no es un nombre de clase o espacio de nombres
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(219,87): error C2065: 'LEFT': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(223,91): error C2653: 'EInputKeys': no es un nombre de clase o espacio de nombres
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(223,88): error C2065: 'ESC': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(225,84): error C2653: 'EInputKeys': no es un nombre de clase o espacio de nombres
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(225,83): error C2065: 'W': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(226,84): error C2653: 'EInputKeys': no es un nombre de clase o espacio de nombres
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(226,83): error C2065: 'S': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(227,84): error C2653: 'EInputKeys': no es un nombre de clase o espacio de nombres
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(227,83): error C2065: 'D': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(228,84): error C2653: 'EInputKeys': no es un nombre de clase o espacio de nombres
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(228,83): error C2065: 'A': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(230,89): error C2653: 'EInputKeys': no es un nombre de clase o espacio de nombres
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(230,87): error C2065: 'UP': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(231,91): error C2653: 'EInputKeys': no es un nombre de clase o espacio de nombres
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(231,87): error C2065: 'DOWN': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(232,92): error C2653: 'EInputKeys': no es un nombre de clase o espacio de nombres
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(232,87): error C2065: 'RIGHT': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(233,91): error C2653: 'EInputKeys': no es un nombre de clase o espacio de nombres
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(233,87): error C2065: 'LEFT': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(239,101): error C2653: 'EInputKeys': no es un nombre de clase o espacio de nombres
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(239,91): error C2065: 'MOUSE_LEFT': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(242,101): error C2653: 'EInputKeys': no es un nombre de clase o espacio de nombres
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(242,91): error C2065: 'MOUSE_LEFT': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(249,12): error C2653: 'EInputKeys': no es un nombre de clase o espacio de nombres
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(249,41): error C2065: 'ESC': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(252,34): error C2039: "GetMouseCoords": no es un miembro de "InputData"
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Types.h(28): message : vea la declaración de 'InputData'
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(253,34): error C2039: "GetMouseCoords": no es un miembro de "InputData"
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Types.h(28): message : vea la declaración de 'InputData'
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(257,12): error C2653: 'Collisions': no es un nombre de clase o espacio de nombres
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(257,66): error C3861: 'RectSDL2My': no se encontró el identificador
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(257,90): error C3861: 'RectSDL2My': no se encontró el identificador
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(257,25): error C3861: 'ExistCollision': no se encontró el identificador
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(259,16): error C2653: 'EInputKeys': no es un nombre de clase o espacio de nombres
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(259,47): error C2065: 'MOUSE_LEFT': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(264,12): error C2653: 'Collisions': no es un nombre de clase o espacio de nombres
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(264,46): error C2039: "GetMouseCoords": no es un miembro de "InputData"
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Types.h(28): message : vea la declaración de 'InputData'
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(264,64): error C3861: 'RectSDL2My': no se encontró el identificador
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(264,25): error C3861: 'ExistCollision': no se encontró el identificador
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(265,16): error C2653: 'EInputKeys': no es un nombre de clase o espacio de nombres
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(265,47): error C2065: 'MOUSE_LEFT': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(274,12): error C2653: 'Collisions': no es un nombre de clase o espacio de nombres
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(274,46): error C2039: "GetMouseCoords": no es un miembro de "InputData"
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Types.h(28): message : vea la declaración de 'InputData'
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(274,64): error C3861: 'RectSDL2My': no se encontró el identificador
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(274,25): error C3861: 'ExistCollision': no se encontró el identificador
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(276,16): error C2653: 'EInputKeys': no es un nombre de clase o espacio de nombres
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(276,47): error C2065: 'MOUSE_LEFT': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(285,13): error C2065: 'FPS': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(295,26): error C2065: 'players': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(295,26): error C2672: 'begin': no se encontró una función sobrecargada que coincida
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(296,13): error C2893: No se pudo especializar la plantilla de función "unknown-type std::begin(_Container &)"
+D:\Visual Studio 2019\VC\Tools\MSVC\14.27.29110\include\xutility(2097): message : vea la declaración de 'std::begin'
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(296,13): message : Con los siguientes argumentos de plantilla:
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(296,13): message : '_Container=unknown-type'
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(296,13): error C2784: 'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept': no se pudo deducir el argumento de plantilla para 'std::initializer_list<_Elem>' desde 'unknown-type'
+D:\Visual Studio 2019\VC\Tools\MSVC\14.27.29110\include\initializer_list(57): message : vea la declaración de 'std::begin'
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(295,26): error C2672: 'end': no se encontró una función sobrecargada que coincida
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(296,13): error C2893: No se pudo especializar la plantilla de función "unknown-type std::end(_Container &)"
+D:\Visual Studio 2019\VC\Tools\MSVC\14.27.29110\include\xutility(2107): message : vea la declaración de 'std::end'
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(296,13): message : Con los siguientes argumentos de plantilla:
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(296,13): message : '_Container=unknown-type'
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(296,13): error C2784: 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': no se pudo deducir el argumento de plantilla para 'std::initializer_list<_Elem>' desde 'unknown-type'
+D:\Visual Studio 2019\VC\Tools\MSVC\14.27.29110\include\initializer_list(63): message : vea la declaración de 'std::end'
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(296,13): error C3536: '<begin>$L0': no se puede usar antes de inicializarse
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(296,13): error C3536: '<end>$L0': no se puede usar antes de inicializarse
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(295,33): error C2100: direccionamiento indirecto no válido
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(295,33): error C2440: 'inicializando': no se puede realizar la conversión de 'int' a 'Player *'
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(295,33): message : La conversión de un tipo entero a un tipo de puntero requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(299,36): error C3861: 'F2StrFormat': no se encontró el identificador
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(322,26): error C2065: 'players': identificador no declarado
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(322,26): error C2672: 'begin': no se encontró una función sobrecargada que coincida
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(323,13): error C2893: No se pudo especializar la plantilla de función "unknown-type std::begin(_Container &)"
+D:\Visual Studio 2019\VC\Tools\MSVC\14.27.29110\include\xutility(2097): message : vea la declaración de 'std::begin'
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(323,13): message : Con los siguientes argumentos de plantilla:
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(323,13): message : '_Container=unknown-type'
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(323,13): error C2784: 'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept': no se pudo deducir el argumento de plantilla para 'std::initializer_list<_Elem>' desde 'unknown-type'
+D:\Visual Studio 2019\VC\Tools\MSVC\14.27.29110\include\initializer_list(57): message : vea la declaración de 'std::begin'
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(322,26): error C2672: 'end': no se encontró una función sobrecargada que coincida
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(323,13): error C2893: No se pudo especializar la plantilla de función "unknown-type std::end(_Container &)"
+D:\Visual Studio 2019\VC\Tools\MSVC\14.27.29110\include\xutility(2107): message : vea la declaración de 'std::end'
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(323,13): message : Con los siguientes argumentos de plantilla:
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(323,13): message : '_Container=unknown-type'
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(323,13): error C2784: 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': no se pudo deducir el argumento de plantilla para 'std::initializer_list<_Elem>' desde 'unknown-type'
+D:\Visual Studio 2019\VC\Tools\MSVC\14.27.29110\include\initializer_list(63): message : vea la declaración de 'std::end'
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(323,13): error C3536: '<begin>$L1': no se puede usar antes de inicializarse
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(323,13): error C3536: '<end>$L1': no se puede usar antes de inicializarse
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(322,33): error C2100: direccionamiento indirecto no válido
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(322,33): error C2440: 'inicializando': no se puede realizar la conversión de 'int' a 'Player *'
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(322,33): message : La conversión de un tipo entero a un tipo de puntero requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(323,53): error C3861: 'MyRect2SDL': no se encontró el identificador
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(323,81): error C3861: 'MyRect2SDL': no se encontró el identificador
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(329,28): error C2039: "GetDeltaTime": no es un miembro de "InputData"
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Types.h(28): message : vea la declaración de 'InputData'
+D:\Repos\llenguatjesaplicats2021\llenguatjesAplicats2021\src\A0102_SDL\Source.cpp(329,40): fatal error C1003: el recuento de errores supera 100; se detiene la compilación
+  Generando código...

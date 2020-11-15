@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enemyList>
+  
+	<enemy name="Bandit">
+		<health> 40 </health>
+		<attack> 10 </attack>
+		<defense> 5 </defense>
+		<atspeed> 10 </atspeed>
+		<exp> 10 </exp>
+		<weaponset>
+      
+			<weapon ID="Sword">
+				<type> Melee </type>
+				<range> 0 </range>
+			</weapon>
+      
+			<weapon ID="Bow">
+				<type> Ranged </type>
+				<range> 10 </range>
+			</weapon>
+      
+		</weaponset>
+	</enemy>
+  
+	<enemy name="Goblin">
+		<health> 20 </health>
+		<attack> 10 </attack>
+		<defense> 0 </defense>
+		<atspeed> 10 </atspeed>
+		<exp> 5 </exp>
+		<weaponset>
+      
+			<weapon ID="Dagger">
+				<type> Melee </type>
+				<range> 0 </range>
+			</weapon>
+      
+		</weaponset>
+	</enemy>
+  
+	<enemy name="Dryad">
+		<health> 50 </health>
+		<attack> 5 </attack>
+		<defense> 30 </defense>
+		<atspeed> 15 </atspeed>
+		<exp> 20 </exp>
+		<weaponset>
+      
+			<weapon ID="Bark">
+				<type> Melee </type>
+				<range> 0 </range>
+			</weapon>
+      
+		</weaponset>
+	</enemy>
+  
+	<enemy name="Golem">
+		<health> 100 </health>
+		<attack> 30 </attack>
+		<defense> 40 </defense>
+		<atspeed> 3 </atspeed>
+		<exp> 100 </exp>
+		<weaponset>
+      
+			<weapon ID="Fist">
+				<type> Melee </type>
+				<range> 0 </range>
+			</weapon>
+      
+			<weapon ID="Rocket">
+				<type> Ranged </type>
+				<range> 0 </range>
+			</weapon>
+      
+		</weaponset>
+	</enemy>
+  
+</enemyList>
