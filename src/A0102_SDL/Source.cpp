@@ -13,7 +13,7 @@
 //Include de extra variables        
 #include "Player.h"
 #include "Types.h"
-#include "Constants.h"
+#include "Utilities.h"
 
 void InitSDL(SDL_Window*& w, SDL_Renderer*& r) {
     // --- INIT SDL ---
@@ -243,19 +243,19 @@ int main(int, char* [])
         if (input.IsPressed(InputKeys::ESC)) isRunning = false;
 
         //Cursor
-        cursorRect.x += (((input.GetMouseCoords().x - (cursorRect.w / 2)) - cursorRect.x) / 10);
-        cursorRect.y += (((input.GetMouseCoords().y - (cursorRect.h / 2)) - cursorRect.y) / 10);
+        cursorRect.x += (((input.GetMouseCoord().x - (cursorRect.w / 2)) - cursorRect.x) / 10);
+        cursorRect.y += (((input.GetMouseCoord().y - (cursorRect.h / 2)) - cursorRect.y) / 10);
 
 #pragma region BUTTONS
         //Play Logic
-        if (Collisions::ExistCollision(/*input.GetMouseCoords()*/RectSDL2My(cursorRect), RectSDL2My(Rect_PlayBtn))) {
+        if (Collisions::ExistCollision(/*input.GetMouseCoords()*/SDL2My(cursorRect), SDL2My(Rect_PlayBtn))) {
             Tex_Play = Tex_PlayHover;
             if (input.JustPressed(InputKeys::MOUSE_LEFT)) { /*Play Logic*/ }
         }
         else Tex_Play = Tex_PlayNormal;
 
         //Sound Logic
-        if (Collisions::ExistCollision(input.GetMouseCoords(), RectSDL2My(Rect_SoundBtn))) {
+        if (Collisions::ExistCollision(input.GetMouseCoord(), SDL2My(Rect_SoundBtn))) {
             if (input.JustPressed(InputKeys::MOUSE_LEFT)) {
                 if (!Mix_PausedMusic()) Mix_PauseMusic();
                 else Mix_PlayMusic(soundtrack, -1);
@@ -265,24 +265,12 @@ int main(int, char* [])
         else Tex_Sound = !Mix_PausedMusic() ? Tex_SoundOnNormal : Tex_SoundOffNormal;
 
         //Exit Logic
-        if (Collisions::ExistCollision(input.GetMouseCoords(), RectSDL2My(Rect_ExitBtn))) {
+        if (Collisions::ExistCollision(input.GetMouseCoord(), SDL2My(Rect_ExitBtn))) {
             Tex_Exit = Tex_ExitHover;
             if (input.JustPressed(InputKeys::MOUSE_LEFT)) { isRunning = 0; }
         }
         else Tex_Exit = Tex_ExitNormal;
 
-#pragma endregion
-
-
-#pragma region Girl SpritesLogic
-        frameTime++;
-        if (FPS / frameTime <= 9)
-        {
-            frameTime = 0;
-            rectGirl.x += frameWidht;
-            if (rectGirl.x >= textWidth)
-                rectGirl.x = 0;
-        }
 #pragma endregion
 
         //Update players
@@ -314,12 +302,12 @@ int main(int, char* [])
         //Player
         //SDL_RenderCopy(m_renderer, texGirl, &rectGirl, &girlPos);
         for (Player* p : players)
-            SDL_RenderCopy(m_renderer, texPlayers, &MyRect2SDL(p->getFrame()), &MyRect2SDL(p->getPosition()));
+            SDL_RenderCopy(m_renderer, texPlayers, &My2SDL(p->getFrame()), &My2SDL(p->getPosition()));
 
         SDL_RenderPresent(m_renderer);
 
         //---FRAME CONTROL---
-        input.UpdateDeltaTime();
+        input.UpdateDeltaTime()     ;
         timeDown -= *input.GetDeltaTime();
         std::cout << timeDown << std::endl;
 
@@ -328,7 +316,6 @@ int main(int, char* [])
     // --- DESTROY ---
     SDL_DestroyTexture(texPlayers);
     SDL_DestroyTexture(texMenuBg);
-    SDL_DestroyTexture(texGirl);
     SDL_DestroyTexture(cursorTexture);
     SDL_DestroyTexture(Tex_Play);
     SDL_DestroyTexture(Tex_PlayNormal);

@@ -1,11 +1,18 @@
 #pragma once
 //Document per recopilar variables importants i que no molestin al document principal
 
-#include "time.h"
+#include <math.h>
+#include <iostream>
+#include <iomanip>
+#include <sstream>
+#include <time.h>
 
 struct Vec2 {
-	int x = 0;
-	int y = 0;
+	int x, y;
+
+	Vec2() : x(0), y(0) {};
+	Vec2(int _xy) : x(_xy), y(_xy) {};
+	Vec2(int _x, int _y) : x(_x), y(_y) {};
 
 	inline bool operator== (const Vec2& v)const { return (x == v.x && y == v.y); };
 	const Vec2 operator- (const Vec2& v) { return Vec2(x - v.x, y - v.y); };
@@ -19,14 +26,8 @@ struct Vec2 {
 	const Vec2 operator*= (const Vec2& v) { return Vec2(x * v.x, y * v.y); };
 	const Vec2 operator*= (const int& i) { return Vec2(x * i, y * i); };
 
-	Vec2() : x(0), y(0) {};
-	Vec2(int _xy) : x(_xy), y(_xy) {};
-	Vec2(int _x, int _y) : x(_x), y(_y) {};
-
 	float mod() { return sqrt(x * x + y * y); };
 };
-
-Vec2 mouse;
 
 struct MyRect {
 	int x, y, w, h;
@@ -55,14 +56,14 @@ struct InputData {
 		void UpdateDeltaTime() {
 			deltaTime = (clock() - lastTime);
 			lastTime = clock();
-			deltaTime /= CLOCKS_PER_SEC;
+			deltaTime /= CLOCKS_PER_SEC;	
 		}
 
 		Vec2 GetMouseCoord () { return mouse; }
 		void SetScreenSize (Vec2 screenSize_) { screenSize = screenSize_; }
 		const Vec2* getScreenSize() const { return &screenSize; }
 		void SetMouseCoords(int x, int y) {
-			mouse = { x,y };
+			mouse = { x,y };	
 		}
 
 		bool IsPressed(InputKeys key) {
@@ -89,7 +90,7 @@ struct InputData {
 			}
 		}
 
-	inline const float* GetDDeltaTime() const { return &deltaTime; }
+	inline const float* GetDeltaTime() const { return &deltaTime; }
 };
 
 enum class EDirection { NONE = -1, UP, LEFT, DOWN, RIGHT, COUNT};
