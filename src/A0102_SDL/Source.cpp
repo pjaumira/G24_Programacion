@@ -65,22 +65,6 @@ int main(int, char* [])
 
     InitSDL(m_window, m_renderer);
 
-    // --- SPRITES ---
-#pragma region Textures
-  //Background
-    SDL_Texture* texMenuBg{ IMG_LoadTexture(m_renderer, "../../res/img/bg.jpg") };
-    if (texMenuBg == nullptr) throw "Error: bgTexture init";
-    SDL_Rect rectMenuBg{ 0, 0, SCREEN_WIDTH, SCREEN_HEIGHT };
-
-    SDL_Texture* texGameBg{ IMG_LoadTexture(m_renderer, "../../res/img/bgCastle.jpg") };
-    if (texGameBg == nullptr) throw "Error: bgTexture init";
-    SDL_Rect rectGameBg{ 0, 0, SCREEN_WIDTH, SCREEN_HEIGHT };
-
-    //Cursor
-    SDL_Texture* cursorTexture{ IMG_LoadTexture(m_renderer, "../../res/img/kintoun.png") };
-    if (cursorTexture == nullptr) throw "No s'han pogut crear les textures";
-    SDL_Rect cursorRect{ 0, 0, 100, 50 };
-
     //-->Animated Sprite ---
 #pragma region Sprites
 

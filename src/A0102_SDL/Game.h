@@ -3,8 +3,6 @@
 #include "Utilities.h"
 #include "Player.h"
 #include "GoldBag.h"
-#include "Constants.h"
-#
 
 class Game
 {

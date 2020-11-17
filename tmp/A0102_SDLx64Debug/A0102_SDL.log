@@ -1,0 +1,197 @@
+﻿  Collisions.cpp
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(22,98): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(22,73): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(24,80): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(24,73): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(29,27): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(57,25): warning C4244: '=': conversión de 'clock_t' a 'float'; posible pérdida de datos
+  Game.cpp
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(22,98): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(22,73): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(24,80): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(24,73): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(29,27): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(57,25): warning C4244: '=': conversión de 'clock_t' a 'float'; posible pérdida de datos
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(25,84): error C2065: 'SCREEN_WIDTH': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(25,98): error C2065: 'SCREEN_HEIGHT': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(110,28): error C2065: 'SCREEN_WIDTH': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(126,29): error C2065: 'SCREEN_WIDTH': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(136,28): error C2065: 'SCREEN_WIDTH': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(148,27): error C2065: 'SCREEN_WIDTH': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(168,30): error C2065: 'SCREEN_WIDTH': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(168,44): error C2065: 'SCREEN_HEIGHT': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(230,9): error C2065: 'cursorRect': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(230,55): error C2065: 'cursorRect': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(230,76): error C2065: 'cursorRect': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(231,9): error C2065: 'cursorRect': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(231,55): error C2065: 'cursorRect': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(231,76): error C2065: 'cursorRect': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(235,73): error C2065: 'cursorRect': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(235,66): error C3861: 'SDL2My': no se encontró el identificador
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(235,86): error C3861: 'SDL2My': no se encontró el identificador
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(242,63): error C3861: 'SDL2My': no se encontró el identificador
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(252,63): error C3861: 'SDL2My': no se encontró el identificador
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(265,36): error C3861: 'F2StrFormat': no se encontró el identificador
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(268,25): error C2065: 'SCREEN_WIDTH': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(274,36): error C2065: 'texGameBg': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(274,57): error C2065: 'rectGameBg': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(289,53): error C3861: 'My2SDL': no se encontró el identificador
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(289,77): error C3861: 'My2SDL': no se encontró el identificador
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(302,24): error C2065: 'texMenuBg': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(303,24): error C2065: 'cursorTexture': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(98,1): warning C4297: 'SDL_main': se suponía que la función no producía una excepción, pero lo hace
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(98,1): message : __declspec(nothrow), throw(), noexcept(true) o noexcept se han especificado en la función
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(103,1): warning C4297: 'SDL_main': se suponía que la función no producía una excepción, pero lo hace
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(103,1): message : __declspec(nothrow), throw(), noexcept(true) o noexcept se han especificado en la función
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(156,1): warning C4297: 'SDL_main': se suponía que la función no producía una excepción, pero lo hace
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(156,1): message : __declspec(nothrow), throw(), noexcept(true) o noexcept se han especificado en la función
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(159,1): warning C4297: 'SDL_main': se suponía que la función no producía una excepción, pero lo hace
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(159,1): message : __declspec(nothrow), throw(), noexcept(true) o noexcept se han especificado en la función
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Game.h(10,22): error C3646: '_gameState': especificador de invalidación desconocido
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Game.h(10,22): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Game.h(17,14): error C2065: 'GoldBag': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Game.h(17,7): error C2923: 'std::vector': 'GoldBag' no es un argumento de tipo de plantilla válido para el parámetro '_Ty'
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Game.h(17,7): error C2976: 'std::vector': no hay suficientes argumentos de plantilla
+D:\Visual Studio 2019\VC\Tools\MSVC\14.27.29110\include\vector(413): message : vea la declaración de 'std::vector'
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Game.h(20,21): error C3646: '_Textures': especificador de invalidación desconocido
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Game.h(20,21): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Game.h(21,15): error C3646: '_Rects': especificador de invalidación desconocido
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Game.h(21,15): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Game.cpp(7,45): error C2065: 'm_renderer': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Game.cpp(11,45): error C2065: 'm_renderer': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Game.cpp(16,49): error C2065: 'm_renderer': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Game.cpp(22,47): error C2065: 'm_renderer': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Game.cpp(29,47): error C2065: 'm_renderer': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Game.cpp(31,33): error C3861: 'AddGoldBag': no se encontró el identificador
+  main.cpp
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(22,98): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(22,73): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(24,80): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(24,73): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(29,27): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(57,25): warning C4244: '=': conversión de 'clock_t' a 'float'; posible pérdida de datos
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(25,84): error C2065: 'SCREEN_WIDTH': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(25,98): error C2065: 'SCREEN_HEIGHT': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(110,28): error C2065: 'SCREEN_WIDTH': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(126,29): error C2065: 'SCREEN_WIDTH': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(136,28): error C2065: 'SCREEN_WIDTH': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(148,27): error C2065: 'SCREEN_WIDTH': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(168,30): error C2065: 'SCREEN_WIDTH': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(168,44): error C2065: 'SCREEN_HEIGHT': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(230,9): error C2065: 'cursorRect': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(230,55): error C2065: 'cursorRect': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(230,76): error C2065: 'cursorRect': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(231,9): error C2065: 'cursorRect': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(231,55): error C2065: 'cursorRect': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(231,76): error C2065: 'cursorRect': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(235,73): error C2065: 'cursorRect': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(235,66): error C3861: 'SDL2My': no se encontró el identificador
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(235,86): error C3861: 'SDL2My': no se encontró el identificador
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(242,63): error C3861: 'SDL2My': no se encontró el identificador
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(252,63): error C3861: 'SDL2My': no se encontró el identificador
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(265,36): error C3861: 'F2StrFormat': no se encontró el identificador
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(268,25): error C2065: 'SCREEN_WIDTH': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(274,36): error C2065: 'texGameBg': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(274,57): error C2065: 'rectGameBg': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(289,53): error C3861: 'My2SDL': no se encontró el identificador
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(289,77): error C3861: 'My2SDL': no se encontró el identificador
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(302,24): error C2065: 'texMenuBg': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(303,24): error C2065: 'cursorTexture': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(98,1): warning C4297: 'SDL_main': se suponía que la función no producía una excepción, pero lo hace
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(98,1): message : __declspec(nothrow), throw(), noexcept(true) o noexcept se han especificado en la función
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(103,1): warning C4297: 'SDL_main': se suponía que la función no producía una excepción, pero lo hace
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(103,1): message : __declspec(nothrow), throw(), noexcept(true) o noexcept se han especificado en la función
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(156,1): warning C4297: 'SDL_main': se suponía que la función no producía una excepción, pero lo hace
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(156,1): message : __declspec(nothrow), throw(), noexcept(true) o noexcept se han especificado en la función
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(159,1): warning C4297: 'SDL_main': se suponía que la función no producía una excepción, pero lo hace
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(159,1): message : __declspec(nothrow), throw(), noexcept(true) o noexcept se han especificado en la función
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Game.h(10,22): error C3646: '_gameState': especificador de invalidación desconocido
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Game.h(10,22): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Game.h(17,14): error C2065: 'GoldBag': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Game.h(17,7): error C2923: 'std::vector': 'GoldBag' no es un argumento de tipo de plantilla válido para el parámetro '_Ty'
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Game.h(17,7): error C2976: 'std::vector': no hay suficientes argumentos de plantilla
+D:\Visual Studio 2019\VC\Tools\MSVC\14.27.29110\include\vector(413): message : vea la declaración de 'std::vector'
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Game.h(20,21): error C3646: '_Textures': especificador de invalidación desconocido
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Game.h(20,21): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Game.h(21,15): error C3646: '_Rects': especificador de invalidación desconocido
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Game.h(21,15): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\main.cpp(5,5): error C2084: la función 'int SDL_main(int,char *[])' ya tiene un cuerpo
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(61): message : vea la definición anterior de 'SDL_main'
+  Player.cpp
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(22,98): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(22,73): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(24,80): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(24,73): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(29,27): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(57,25): warning C4244: '=': conversión de 'clock_t' a 'float'; posible pérdida de datos
+  Source.cpp
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(22,98): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(22,73): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(24,80): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(24,73): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(29,27): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Types.h(57,25): warning C4244: '=': conversión de 'clock_t' a 'float'; posible pérdida de datos
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(25,84): error C2065: 'SCREEN_WIDTH': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(25,98): error C2065: 'SCREEN_HEIGHT': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(110,28): error C2065: 'SCREEN_WIDTH': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(126,29): error C2065: 'SCREEN_WIDTH': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(136,28): error C2065: 'SCREEN_WIDTH': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(148,27): error C2065: 'SCREEN_WIDTH': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(168,30): error C2065: 'SCREEN_WIDTH': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(168,44): error C2065: 'SCREEN_HEIGHT': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(230,9): error C2065: 'cursorRect': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(230,55): error C2065: 'cursorRect': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(230,76): error C2065: 'cursorRect': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(231,9): error C2065: 'cursorRect': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(231,55): error C2065: 'cursorRect': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(231,76): error C2065: 'cursorRect': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(235,73): error C2065: 'cursorRect': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(235,66): error C3861: 'SDL2My': no se encontró el identificador
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(235,86): error C3861: 'SDL2My': no se encontró el identificador
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(242,63): error C3861: 'SDL2My': no se encontró el identificador
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(252,63): error C3861: 'SDL2My': no se encontró el identificador
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(265,36): error C3861: 'F2StrFormat': no se encontró el identificador
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(268,25): error C2065: 'SCREEN_WIDTH': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(274,36): error C2065: 'texGameBg': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(274,57): error C2065: 'rectGameBg': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(289,53): error C3861: 'My2SDL': no se encontró el identificador
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(289,77): error C3861: 'My2SDL': no se encontró el identificador
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(302,24): error C2065: 'texMenuBg': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(303,24): error C2065: 'cursorTexture': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(98,1): warning C4297: 'SDL_main': se suponía que la función no producía una excepción, pero lo hace
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(98,1): message : __declspec(nothrow), throw(), noexcept(true) o noexcept se han especificado en la función
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(103,1): warning C4297: 'SDL_main': se suponía que la función no producía una excepción, pero lo hace
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(103,1): message : __declspec(nothrow), throw(), noexcept(true) o noexcept se han especificado en la función
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(156,1): warning C4297: 'SDL_main': se suponía que la función no producía una excepción, pero lo hace
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(156,1): message : __declspec(nothrow), throw(), noexcept(true) o noexcept se han especificado en la función
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(159,1): warning C4297: 'SDL_main': se suponía que la función no producía una excepción, pero lo hace
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(159,1): message : __declspec(nothrow), throw(), noexcept(true) o noexcept se han especificado en la función
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(18,6): error C2084: la función 'void InitSDL(SDL_Window *&,SDL_Renderer *&)' ya tiene un cuerpo
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(18): message : vea la definición anterior de 'InitSDL'
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(49,6): error C2084: la función 'void CloseSDL(SDL_Window *&,SDL_Renderer *&)' ya tiene un cuerpo
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(49): message : vea la definición anterior de 'CloseSDL'
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(61,5): error C2084: la función 'int SDL_main(int,char *[])' ya tiene un cuerpo
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(61): message : vea la definición anterior de 'SDL_main'
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(66,5): error C2065: 'InitSDL': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(230,9): error C2065: 'cursorRect': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(230,55): error C2065: 'cursorRect': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(230,76): error C2065: 'cursorRect': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(231,9): error C2065: 'cursorRect': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(231,55): error C2065: 'cursorRect': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(231,76): error C2065: 'cursorRect': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(235,73): error C2065: 'cursorRect': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(274,36): error C2065: 'texGameBg': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(274,57): error C2065: 'rectGameBg': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(302,24): error C2065: 'texMenuBg': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(303,24): error C2065: 'cursorTexture': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(320,5): error C2065: 'CloseSDL': identificador no declarado
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(98,1): warning C4297: 'SDL_main': se suponía que la función no producía una excepción, pero lo hace
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(98,1): message : __declspec(nothrow), throw(), noexcept(true) o noexcept se han especificado en la función
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(103,1): warning C4297: 'SDL_main': se suponía que la función no producía una excepción, pero lo hace
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(103,1): message : __declspec(nothrow), throw(), noexcept(true) o noexcept se han especificado en la función
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(156,1): warning C4297: 'SDL_main': se suponía que la función no producía una excepción, pero lo hace
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(156,1): message : __declspec(nothrow), throw(), noexcept(true) o noexcept se han especificado en la función
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(159,1): warning C4297: 'SDL_main': se suponía que la función no producía una excepción, pero lo hace
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Source.cpp(159,1): message : __declspec(nothrow), throw(), noexcept(true) o noexcept se han especificado en la función
+  Generando código...
+D:\Repos\G24\G24_Programacion\src\A0102_SDL\Collisions.cpp(20): warning C4717: 'Collisions::ExistCollision': recursiva para todas las rutas de acceso de control; la función provocará el desbordamiento de la pila en tiempo de ejecución

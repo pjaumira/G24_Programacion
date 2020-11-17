@@ -176,6 +176,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Collisions.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GoldBag.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Source.cpp" />
