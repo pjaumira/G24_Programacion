@@ -39,10 +39,10 @@ public:
 	Player();
 	~Player();
 
-	void Update(InputData*, std::vector<GoldBag*>& goldBags);
+	void Update(InputData*, std::vector<GoldBags*>& goldBags);
 	bool Move(InputData*);
 	void UpdateSprite();
-	void UpdateCollisions(std::vector <GoldBag*>& goldBags, InputData* input);
+	void UpdateCollisions(std::vector <GoldBags*>& goldBags, InputData* input);
 
 	void CheckCollision();
 

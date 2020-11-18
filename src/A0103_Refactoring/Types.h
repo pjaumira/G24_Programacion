@@ -9,6 +9,32 @@
 #include <sstream>
 #include <time.h>
 
+using Color = struct Color {
+	int r, g, b, a;
+
+	Color();
+	Color(int _r, int _g, int _b, int _a) {
+		r = _r;
+		g = _g;
+		b = _b;
+		a = _a;
+	}
+};
+
+using Font = struct {
+	std::string id;
+	std::string path;
+	int size;
+};
+
+using Text = struct {
+	std::string id;
+	std::string text;
+	Color color;
+	int w;
+	int h;
+};
+
 struct Vec2 {
 	int x, y;
 

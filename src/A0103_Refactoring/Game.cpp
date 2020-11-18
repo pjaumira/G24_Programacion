@@ -14,7 +14,7 @@ Game::Game() {
 }
 
 Game::~Game() {
-
+        
     SDL_FreeSurface(surfTimer);
     TTF_CloseFont(font_timmer);
     DestroyAllTextures();
@@ -30,7 +30,7 @@ void Game::UpdateInput() {
     while (SDL_PollEvent(&event)) {
         switch (event.type) {
         case SDL_QUIT:
-            _input.SetKeyValue(InputKeys::ESC, true);
+            _input.SetKeyValue(InputKeys::ESC, true);       
             break;
         case SDL_KEYDOWN:
             if (event.key.keysym.sym == SDLK_ESCAPE) _input.SetKeyValue(InputKeys::ESC, true);
