@@ -1,0 +1,228 @@
+﻿  Collisions.cpp
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Types.h(24,98): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Types.h(24,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Types.h(26,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Types.h(26,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Types.h(31,27): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Types.h(59,24): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
+  Game.cpp
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Types.h(24,98): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Types.h(24,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Types.h(26,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Types.h(26,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Types.h(31,27): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Types.h(59,24): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Utilities.h(13,22): error C2065: 'SDL_Rect': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Utilities.h(13,31): error C2146: syntax error: missing ')' before identifier 'rect'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Utilities.h(13,37): error C2143: syntax error: missing ';' before '{'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Utilities.h(13,37): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Utilities.h(17,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Utilities.h(17,17): error C2146: syntax error: missing ';' before identifier 'My2SDL'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Utilities.h(17,41): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Utilities.h(18,9): error C2440: 'return': cannot convert from 'initializer list' to 'int'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Utilities.h(18,9): message : The initializer contains too many elements
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Utilities.h(24,1): error C2617: 'My2SDL': inconsistent return statement
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Utilities.h(17): message : see declaration of 'My2SDL'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.h(28,38): error C2065: 'GoldBag': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.h(28,46): error C2059: syntax error: '>'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.h(31,37): error C2065: 'GoldBag': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.h(31,45): error C2059: syntax error: '>'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.h(44,21): error C2535: 'void Player::UpdateSprite(void)': member function already defined or declared
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.h(30): message : see declaration of 'Player::UpdateSprite'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(10,22): error C3646: '_gameState': unknown override specifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(10,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(13,12): error C2143: syntax error: missing ';' before '*'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(13,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(13,21): error C2238: unexpected token(s) preceding ';'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(14,14): error C2143: syntax error: missing ';' before '*'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(14,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(14,25): error C2238: unexpected token(s) preceding ';'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(17,14): error C2065: 'GoldBag': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(17,7): error C2923: 'std::vector': 'GoldBag' is not a valid template type argument for parameter '_Ty'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(17,7): error C2976: 'std::vector': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(413): message : see declaration of 'std::vector'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(20,21): error C3646: '_Textures': unknown override specifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(20,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(21,15): error C3646: '_Rects': unknown override specifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(21,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(22,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(22,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(22,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(23,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(23,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(23,34): error C2238: unexpected token(s) preceding ';'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(24,11): error C2143: syntax error: missing ';' before '*'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(24,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(24,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(4,14): error C2512: 'std::vector': no appropriate default constructor available
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(413,1): message : see declaration of 'std::vector'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(6,5): error C2065: 'SDL_Window': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(6,17): error C2065: '_window': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(7,5): error C2065: 'SDL_Renderer': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(7,19): error C2065: '_renderer': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(9,5): error C2065: '_gameState': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(9,33): error C2653: 'GameState': is not a class or namespace name
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(9,29): error C2065: 'MENU': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(18,21): error C2065: 'surfTimer': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(18,5): error C3861: 'SDL_FreeSurface': identifier not found
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(19,19): error C2065: 'font_timmer': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(19,5): error C3861: 'TTF_CloseFont': identifier not found
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(29,5): error C2065: 'SDL_Event': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(29,15): error C2146: syntax error: missing ';' before identifier 'event'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(29,15): error C2065: 'event': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(30,27): error C2065: 'event': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(30,12): error C3861: 'SDL_PollEvent': identifier not found
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(31,17): error C2065: 'event': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(32,14): error C2065: 'SDL_QUIT': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(32,14): error C2131: expression did not evaluate to a constant
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(32,14): message : a non-constant (sub-)expression was encountered
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(35,14): error C2065: 'SDL_KEYDOWN': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(35,14): error C2131: expression did not evaluate to a constant
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(35,14): message : a non-constant (sub-)expression was encountered
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(36,17): error C2065: 'event': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(36,41): error C2065: 'SDLK_ESCAPE': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(38,17): error C2065: 'event': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(38,41): error C2065: 'SDLK_w': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(39,17): error C2065: 'event': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(39,41): error C2065: 'SDLK_s': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(40,17): error C2065: 'event': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(40,41): error C2065: 'SDLK_d': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(41,17): error C2065: 'event': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(41,41): error C2065: 'SDLK_a': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(43,17): error C2065: 'event': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(43,41): error C2065: 'SDLK_UP': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(44,17): error C2065: 'event': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(44,41): error C2065: 'SDLK_DOWN': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(45,17): error C2065: 'event': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(45,41): error C2065: 'SDLK_RIGHT': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(46,17): error C2065: 'event': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(46,41): error C2065: 'SDLK_LEFT': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(49,14): error C2065: 'SDL_KEYUP': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(49,14): error C2131: expression did not evaluate to a constant
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(49,14): message : a non-constant (sub-)expression was encountered
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(50,17): error C2065: 'event': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(50,41): error C2065: 'SDLK_ESCAPE': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(52,17): error C2065: 'event': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(52,41): error C2065: 'SDLK_w': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(53,17): error C2065: 'event': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(53,41): error C2065: 'SDLK_s': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(54,17): error C2065: 'event': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(54,41): error C2065: 'SDLK_d': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(55,17): error C2065: 'event': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(55,41): error C2065: 'SDLK_a': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(57,17): error C2065: 'event': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(57,41): error C2065: 'SDLK_UP': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(58,17): error C2065: 'event': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(58,41): error C2065: 'SDLK_DOWN': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(59,17): error C2065: 'event': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(59,41): error C2065: 'SDLK_RIGHT': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(60,17): error C2065: 'event': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(60,41): error C2065: 'SDLK_LEFT': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(62,14): error C2065: 'SDL_MOUSEMOTION': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(62,14): error C2131: expression did not evaluate to a constant
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(62,14): message : a non-constant (sub-)expression was encountered
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(63,35): error C2065: 'event': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(63,51): error C2065: 'event': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(63,65): error C2660: 'InputData::SetMouseCoords': function does not take 1 arguments
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Types.h(67,7): message : see declaration of 'InputData::SetMouseCoords'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(65,14): error C2065: 'SDL_MOUSEBUTTONDOWN': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(65,14): error C2131: expression did not evaluate to a constant
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(65,14): message : a non-constant (sub-)expression was encountered
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(66,17): error C2065: 'event': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(66,40): error C2065: 'SDL_BUTTON_LEFT': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(68,14): error C2065: 'SDL_MOUSEBUTTONUP': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(68,14): error C2131: expression did not evaluate to a constant
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(68,14): message : a non-constant (sub-)expression was encountered
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(69,17): error C2065: 'event': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(69,40): error C2065: 'SDL_BUTTON_LEFT': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.cpp(69,55): fatal error C1003: error count exceeds 100; stopping compilation
+  GoldBag.cpp
+  main.cpp
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Types.h(24,98): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Types.h(24,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Types.h(26,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Types.h(26,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Types.h(31,27): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Types.h(59,24): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Utilities.h(13,22): error C2065: 'SDL_Rect': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Utilities.h(13,31): error C2146: syntax error: missing ')' before identifier 'rect'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Utilities.h(13,37): error C2143: syntax error: missing ';' before '{'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Utilities.h(13,37): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Utilities.h(17,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Utilities.h(17,17): error C2146: syntax error: missing ';' before identifier 'My2SDL'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Utilities.h(17,41): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Utilities.h(18,9): error C2440: 'return': cannot convert from 'initializer list' to 'int'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Utilities.h(18,9): message : The initializer contains too many elements
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Utilities.h(24,1): error C2617: 'My2SDL': inconsistent return statement
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Utilities.h(17): message : see declaration of 'My2SDL'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.h(28,38): error C2065: 'GoldBag': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.h(28,46): error C2059: syntax error: '>'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.h(31,37): error C2065: 'GoldBag': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.h(31,45): error C2059: syntax error: '>'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.h(44,21): error C2535: 'void Player::UpdateSprite(void)': member function already defined or declared
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.h(30): message : see declaration of 'Player::UpdateSprite'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(10,22): error C3646: '_gameState': unknown override specifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(10,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(13,12): error C2143: syntax error: missing ';' before '*'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(13,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(13,21): error C2238: unexpected token(s) preceding ';'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(14,14): error C2143: syntax error: missing ';' before '*'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(14,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(14,25): error C2238: unexpected token(s) preceding ';'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(17,14): error C2065: 'GoldBag': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(17,7): error C2923: 'std::vector': 'GoldBag' is not a valid template type argument for parameter '_Ty'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(17,7): error C2976: 'std::vector': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(413): message : see declaration of 'std::vector'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(20,21): error C3646: '_Textures': unknown override specifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(20,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(21,15): error C3646: '_Rects': unknown override specifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(21,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(22,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(22,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(22,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(23,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(23,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(23,34): error C2238: unexpected token(s) preceding ';'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(24,11): error C2143: syntax error: missing ';' before '*'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(24,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Game.h(24,33): error C2238: unexpected token(s) preceding ';'
+  Player.cpp
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Types.h(24,98): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Types.h(24,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Types.h(26,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Types.h(26,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Types.h(31,27): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Types.h(59,24): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.h(28,38): error C2065: 'GoldBag': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.h(28,46): error C2059: syntax error: '>'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.h(31,37): error C2065: 'GoldBag': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.h(31,45): error C2059: syntax error: '>'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.h(44,21): error C2535: 'void Player::UpdateSprite(void)': member function already defined or declared
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.h(30): message : see declaration of 'Player::UpdateSprite'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.cpp(12,38): error C2511: 'void Player::Update(InputData)': overloaded member function not found in 'Player'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.h(7): message : see declaration of 'Player'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.cpp(13,2): error C2352: 'Player::Move': illegal call of non-static member function
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.h(43): message : see declaration of 'Player::Move'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.cpp(14,2): error C2352: 'Player::UpdateSprite': illegal call of non-static member function
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.h(30): message : see declaration of 'Player::UpdateSprite'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.cpp(15,19): error C2065: 'goldBags': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.cpp(155,43): error C2065: 'GoldBag': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.cpp(155,51): error C2059: syntax error: '>'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.cpp(155,81): error C2511: 'void Player::UpdateCollisions(unknown-type,InputData *)': overloaded member function not found in 'Player'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.h(7): message : see declaration of 'Player'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.cpp(156,7): error C2065: 'GoldBag': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.cpp(156,16): error C2065: 'g': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.cpp(156,18): error C2143: syntax error: missing ';' before ':'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.cpp(156,28): error C2143: syntax error: missing ';' before ')'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.cpp(157,34): error C2597: illegal reference to non-static member 'Player::position'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.h(15): message : see declaration of 'Player::position'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.cpp(157,45): error C2065: 'g': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.cpp(158,22): error C2039: 'rVec': is not a member of 'Vec2'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Types.h(12): message : see declaration of 'Vec2'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.cpp(158,26): error C3861: 'rVec': identifier not found
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.cpp(160,4): error C2065: 'g': undeclared identifier
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.cpp(161,9): error C2597: illegal reference to non-static member 'Player::score'
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.cpp(161,9): error C3867: 'Player::score': non-standard syntax; use '&' to create a pointer to member
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Player.cpp(161,9): error C2105: '++' needs l-value
+  Generating Code...
+C:\Users\Marc\Documents\GitHub\G24_Programacion\src\A0103_Refactoring\Collisions.cpp(17): warning C4717: 'Collisions::ExistCollision': recursive on all control paths, function will cause runtime stack overflow

@@ -1,8 +1,11 @@
 		#pragma once
 
 #include "Collisions.h"
-#include "GoldBag.h"
+
 #include <vector>
+
+
+class GoldBag;
 
 class Player {
 
@@ -11,6 +14,17 @@ public:
 
 private:
 	// Independitzarlo de SDL
+	struct DirectionMove{
+		EDirection eD;
+		Vec2 vD;
+
+		DirectionMove() : eD(EDirection::NONE), vD(Vec2()) {};
+		DirectionMove(EDirection e, Vec2 v)
+		{ 
+			eD = e; 
+			vD = v; 
+		};
+	};
 	int score;
 	MyRect position;
 	MyRect frame;

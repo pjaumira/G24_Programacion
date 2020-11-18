@@ -13,8 +13,8 @@ private:
 	SDL_Window* _window;
 	SDL_Renderer* _renderer;
 
-	std::vector<Player> _players;
-	std::vector<GoldBag> _goldBags;
+	std::vector<Player*> _players;
+	std::vector<GoldBags*> _goldBags;
 	float timeDown, totalGameTime;
 
 	MTextures _Textures;
