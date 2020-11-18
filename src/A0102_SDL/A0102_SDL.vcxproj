@@ -183,12 +183,10 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Audio.h" />
     <ClInclude Include="Collisions.h" />
     <ClInclude Include="Constants.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="GoldBag.h" />
-    <ClInclude Include="Input.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Types.h" />
     <ClInclude Include="Utilities.h" />
