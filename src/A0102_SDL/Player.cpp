@@ -2,11 +2,17 @@
 
 // <>
 
-Player::Player() : position({ 1,1,40,40}), frame({0,0,20,20}), pNum(numPlayer::NONE) {}
+Player::Player() : position({ 1,1,40,40}), frame({0,0,20,20}), pNum(numPlayer::NONE) {
+	initCol = lastCol = 0;
+	initRow = lastRow = 0;
+	frameCount = 0;
+	score = 0;
+}
 
 void Player::Update(InputData input) {
 	Move(input);
 	UpdateSprite();
+	UpdateCollisions(goldBags, input);
 }
 
 bool Player::Move(InputData input) {
@@ -59,13 +65,13 @@ bool Player::Move(InputData input) {
 	// <>
 	//Check for player Collision
 	if (newPosition.x > input.getScreenSize()->x || newPosition.x < 0) newPosition.x = position.x;
-	if (newPosition.y > input.getScreenSize()->y || newPosition.y < 0) newPosition.y = position.y;
+	if (newPosition.y > input.getScreenSize()->y || newPosition.y < 150) newPosition.y = position.y;
 
 	//Update Position
-	if (newPosition.x != position.x || newPosition.y != position.y) {
-			position.x = newPosition.x;
-			position.y = newPosition.y;
-			return true;
+	if (newPosition.x != 0 || newPosition.y != 0) {
+		position.x = newPosition.x;
+		position.y = newPosition.y;
+		return true;
 	}
 
 	return false;
@@ -143,5 +149,16 @@ void Player::setPlayerValues(int texWidht, int texHeight, int nCol, int nRow, nu
 		frame.x = 0;
 		frame.y = 0;
 		break;
+	}
+}
+
+void Player::UpdateCollisions(std::vector<GoldBag*> goldBags, InputData* input) {
+	for (GoldBag* g : goldBags) {
+		if (Collisions::ExistCollision(position, *g->getPosition())) {
+			Vec2 rPos = Vec2::rVec(150, input->getScreenSize()->x < input->getScreenSize()->y ?
+				(input->getScreenSize()->x - 150) : (input->getScreenSize()->y - 150));
+			g->SetPosition(rPos);
+			score++;
+		}
 	}
 }

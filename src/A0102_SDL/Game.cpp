@@ -5,16 +5,19 @@ Game::Game() {
 
     SDL_Window* _window = nullptr;
     SDL_Renderer* _renderer = nullptr;
-
+    _input = InputData();
+    _gameState = GameState::MENU;
     timeDown = 70.0f;
 
     InitSDL();
-
-    _input = InputData();
     _input.SetScreenSize(Vec2(SCREEN_WIDTH, SCREEN_HEIGHT));
 }
 
 Game::~Game() {
+
+    SDL_FreeSurface(surfTimer);
+    TTF_CloseFont(font_timmer);
+    DestroyAllTextures();
     CloseSDL();
 }
 
@@ -101,6 +104,10 @@ void Game::InitSDL() {
     const Uint8 mixFlags{ MIX_INIT_MP3 | MIX_INIT_OGG };
     if (!(Mix_Init(mixFlags) & mixFlags)) throw "Error: SDL:MixerInit";
 
+}
+
+void Game::InitMenu() {
+        
 }
 
 void Game::CloseSDL() {
@@ -223,7 +230,13 @@ void Game::Run() {
         // Update Timer
         if (_gameState == GameState::GAME) timeDown -= *_input.GetDeltaTime();
         if (timeDown <= 0.f) _gameState = GameState::EXIT;
-        //else
+        else {
+            std::string s = textTime + F2StrFormat(trunc(timeDown / 60), 0);
+            s += ":" + F2StrFormat(static_cast <int> (timeDown) % 60, 0);
+            surfTimer = TTF_RenderText_Blended(font_timmer, s.c_str(), SDL_Color{ 0,50, 220, 255 });
+            texTiimer = SDL_CreateTextureFromSurface(_renderer, surfTimer);
+            Rect_Timmer = { SCREEN_WIDTH - 150, 10, surfTimer->w, surfTimer->h };   
+        }
 
         // DRAW
         SDL_RenderClear(_renderer);
@@ -233,12 +246,20 @@ void Game::Run() {
         SDL_RenderCopy(m_renderer, texTimer, nullptr, &Rect_Timer);
 
         SDL_RenderCopy(m_renderer, texP1Score, nullptr, &rectTextScore);
-        SDL_RenderCopy(m_renderer, texP1Score, nullptr, My2SDL(&MyRect(rectTextScore.x, rectTextScore.y)));
+        SDL_RenderCopy(m_renderer, texP1Score, nullptr, My2SDL(&MyRect(rectTextScore.x, rectTextScore.y + (rectTextScore.h), rectTextScore)); 
 
         for (int i = 0; i < _players.size(); i++) {
             Player* p = _players.at(i);
             // falta acabar
-            //SDL_RenderCopy(m_renderer, texNum, &My2SDL(&MyRect(trunc(*(p->getScore()) *0.1) * rectScoreFrame.w, 0, rectScoreFrame.w)
+            SDL_RenderCopy(m_renderer, texNum,
+                &My2SDL(&MyRect(trunc(*(p->getScore()) * 0.1) * Rect_ScoreFrame.w, 0, Rect_ScoreFrame.w, Rect_ScoreFrame.h)),
+                &My2SDL(&MyRect(Rect_ScoreNum.x, Rect_ScoreNum.y + (Rect_ScoreNum.h * i), Rect_ScoreNum.w, Rect_ScoreNum.h)));
+
+            SDL_RenderCopy(m_renderer, texNum,
+                &My2SDL(&MyRect((*(p->getScore()) % 10) * Rect_ScoreFrame.w, 0, Rect_       ScoreFrame.w, Rect_ScoreFrame.h)),
+                &My2SDL(&MyRect(Rect_ScoreNum.x + (Rect_ScoreNum.w * 1), Rect_ScoreNum.y + (Rect_ScoreNum.h * i) + Rect_ScoreNum.w, Rect_ScoreNum.h));
+
+            std::cout << "P1" << std::to_string(i + 1).c_str() << ": " << *p->getScore() << std::endl;  
         }
 
         for (const GoldBag* g : _goldBags)
