@@ -1,11 +1,10 @@
 #include "Player.h"
-#include "GoldBag.h"
-
+#include "Goldbag.h"
 // <>
 
 Player::Player() : position({ 1,1,40,40 }), frame({ 0,0,20,20 }), pNum(numPlayer::NONE) {
 	initCol = lastCol = 0;
-	initRow = lastRow = 0;
+	initRow = lastRow = 0;	
 	frameCount = 0;
 	score = 0;
 }

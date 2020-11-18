@@ -1,11 +1,9 @@
 #pragma once
 
-#include "Types.h"
-
 
 class GoldBags
 {
-public:
+public:	
 
 	Vec2 pos;
 

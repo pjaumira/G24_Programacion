@@ -1,4 +1,4 @@
-	#pragma once
+			#pragma once
 
 #include "Utilities.h"
 #include "Player.h"
@@ -14,7 +14,7 @@ private:
 	SDL_Renderer* _renderer;
 
 	std::vector<Player*> _players;
-	std::vector<GoldBags*> _goldBags;
+	std::vector<GoldBags*	> _goldBags;
 	float timeDown, totalGameTime;
 
 	MTextures _Textures;
