@@ -67,3 +67,57 @@ struct MyRect {
 enum class InputKeys {
 	MOUSE_LEFT, W, A, S, D, UP, LEFT, DOWN, RIGHT, ESC, NONE, COUNT
 };
+
+struct InputData {
+private:
+	bool keyboardPressed[(int)InputKeys::COUNT] = {};
+	bool keyboardKeyDown[(int)InputKeys::COUNT] = {};
+	Vec2 mouse;
+	Vec2 screenSize;
+
+	//Time Control
+	clock_t lastTime = clock();
+	float deltaTime = 0.0f;
+
+public:
+	void UpdateDeltaTime() {
+		deltaTime = (clock() - lastTime);
+		lastTime = clock();
+		deltaTime /= CLOCKS_PER_SEC;
+	}
+
+	Vec2 GetMouseCoord() { return mouse; }
+	void SetScreenSize(Vec2 screenSize_) { screenSize = screenSize_; }
+	const Vec2* getScreenSize() const { return &screenSize; }
+	void SetMouseCoords(int x, int y) {
+		mouse = { x,y };
+	}
+
+	bool IsPressed(InputKeys key) {
+		return keyboardPressed[(int)key];
+	}
+
+	bool JustPressed(InputKeys key) {
+		return keyboardKeyDown[(int)key];
+	}
+
+	void SetKeyValue(InputKeys key, bool value) {
+		if (!keyboardPressed[(int)key]) {
+			keyboardKeyDown[(int)key] = value;
+		}
+		else {
+			keyboardKeyDown[(int)key] = false;
+		}
+		keyboardPressed[(int)key] = value;
+	}
+
+	void SetFalseKeyDown() {
+		for (int i = 0; i < (int)InputKeys::COUNT; i++) {
+			keyboardKeyDown[i] = false;
+		}
+	}
+
+	inline const float* GetDeltaTime() const { return &deltaTime; }
+};
+
+enum class EDirection { NONE = -1, UP, LEFT, DOWN, RIGHT, COUNT };
