@@ -70,7 +70,7 @@ void Renderer::LoadTexture(const std::string& id, const std::string& path) {
 	m_textureData[id] = texture;
 };
 
-VEC2 Renderer::LoadTextureText(const std::string& fontId, Text text) {
+Vec2 Renderer::LoadTextureText(const std::string& fontId, Text text) {
 	SDL_Surface* tmpSurf = TTF_RenderText_Blended(m_fontData[fontId], text.text.c_str(), SDL_Color{ text.color.r, text.color.g, text.color.b,text.color.a });
 	if (tmpSurf == nullptr) throw "Unable to create the SDL text surface";
 	m_textureData[text.id] = SDL_CreateTextureFromSurface(m_renderer, tmpSurf); //hace un new
@@ -81,7 +81,7 @@ void Renderer::LoadRect(const std::string& idRect, const MyRect& rect) {
 	m_rects[idRect] = new SDL_Rect{ rect.x,rect.y,rect.w,rect.h };
 };
 
-VEC2 Renderer::GetTextureSize(const std::string& id) {
+Vec2 Renderer::GetTextureSize(const std::string& id) {
 	int w; int h;
 	SDL_QueryTexture(m_textureData[id], NULL, NULL, &w, &h);
 	return { w, h };

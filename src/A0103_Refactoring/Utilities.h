@@ -5,21 +5,21 @@
 #include "Types.h"
 #include "Game.h"
 
-#define SCREEN_WIDTH 800
-#define SCREEN_HEIGHT 600
+//#define SCREEN_WIDTH 800
+//#define SCREEN_HEIGHT 600
 
-const int FPS = 60;
+//const int FPS = 60;
 
 static MyRect SDL2My(SDL_Rect rect) {
 	return MyRect(rect.x, rect.y, rect.w, rect.h);
 }
 
-static SDL_Rect My2SDL(const MyRect* r) {
+static SDL_Rect MyRect2SDL(const MyRect* r) {
 	return {
 		r->x,
 		r->y,
 		r->w,
-		r->h,
+		r->h
 	};
 }
 

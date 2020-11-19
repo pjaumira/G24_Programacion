@@ -6,7 +6,7 @@ Game::Game() {
     SDL_Window* _window = nullptr;
     SDL_Renderer* _renderer = nullptr;
     _input = InputData();
-    _gameState = GameState::MENU;
+    //_gameState = GameState::MENU;
     timeDown = 70.0f;
 
     InitSDL();
@@ -127,13 +127,14 @@ void Game::CloseSDL() {
 void AddPlayer(int texWidht, int texHeight, Player::numPlayer pNum) {
     Player* p = new Player();
     p->setPlayerValues(texWidht, texHeight, 12, 8, pNum);
-    _players.push_back(std::move(p));
+    
+  //  _players.push_back(std::move(p));
 };
 
 void AddGoldBags() {
-    Vec2 rPos = Vec2::rVec(150, SCREEN_WIDTH < SCREEN_HEIGHT ? SCREEN_WIDTH - 150 : SCREEN_HEIGHT - 150);
+  /*  Vec2 rPos = Vec2::rVec2(150, SCREEN_WIDTH < SCREEN_HEIGHT ? SCREEN_WIDTH - 150 : SCREEN_HEIGHT - 150); // Necesitamos crear el método de este vector "rVec2" 
     GoldBag* g = new Goldbag({ rPos.x, rPos.y, 40, 40 });
-    _goldBags.push_back(std::move(g));
+    _goldBags.push_back(std::move(g));*/
 }
 
 void Game::Run() {
@@ -256,13 +257,13 @@ void Game::Run() {
                 &My2SDL(&MyRect(Rect_ScoreNum.x, Rect_ScoreNum.y + (Rect_ScoreNum.h * i), Rect_ScoreNum.w, Rect_ScoreNum.h)));
 
             SDL_RenderCopy(m_renderer, texNum,
-                &My2SDL(&MyRect((*(p->getScore()) % 10) * Rect_ScoreFrame.w, 0, Rect_       ScoreFrame.w, Rect_ScoreFrame.h)),
+                &My2SDL(&MyRect((*(p->getScore()) % 10) * Rect_ScoreFrame.w, 0, Rect_ScoreFrame.w, Rect_ScoreFrame.h)),
                 &My2SDL(&MyRect(Rect_ScoreNum.x + (Rect_ScoreNum.w * 1), Rect_ScoreNum.y + (Rect_ScoreNum.h * i) + Rect_ScoreNum.w, Rect_ScoreNum.h));
 
             std::cout << "P1" << std::to_string(i + 1).c_str() << ": " << *p->getScore() << std::endl;
         }
 
-        for (const GoldBag* g : _goldBags)
+        for (const GoldBags* g : _goldBags)
             SDL_RenderCopy(m_renderer, texGoldBag, nullptr, &My2SDL(g->getPosition()));
     }
 

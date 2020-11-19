@@ -3,6 +3,7 @@
 #include "Utilities.h"
 #include "Player.h"
 #include "GoldBag.h"
+#include "Constants.h"
 
 #include <SDL.h>
 #include <SDL_image.h>
@@ -12,7 +13,7 @@
 class Game
 {
 private:
-	GameState _gameState;
+	//GameState _gameState;
 	InputData _input;
 
 	SDL_Window* _window;
@@ -20,10 +21,11 @@ private:
 
 	std::vector<Player*> _players;
 	std::vector<GoldBags*	> _goldBags;
+
 	float timeDown, totalGameTime;
 
 	MTextures _Textures;
-	MRects _Rects;
+	Mrects _Rects;
 	TTF_Font* font_timmer = nullptr;
 	SDL_Surface* surfTimer = nullptr;
 	Mix_Music* soundtrack = nullptr;
@@ -31,6 +33,8 @@ private:
 public:
 	Game();
 	~Game();
+
+
 
 	void Run();
 

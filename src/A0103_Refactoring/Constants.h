@@ -10,7 +10,7 @@
 
 const int FPS = 60;
 
-typedef std::unordered_map<std::string, SDL_Texture*> MTextures;
+typedef std::unordered_map<std::string, SDL_Texture> MTextures;
 using Mrects = std::unordered_map<std::string, SDL_Rect>;
 
 const std::string T_BG_MENU = "BackgroundMenu";
