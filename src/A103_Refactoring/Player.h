@@ -50,8 +50,4 @@ public:
 	void setPlayerValues(int texWidht, int texHeight, int nCol, int nRow, numPlayer num);
 
 	inline const int* getScore() const { return &score; }
-
-private:
-	bool Move(InputData);
-	void UpdateSprite();
 };
