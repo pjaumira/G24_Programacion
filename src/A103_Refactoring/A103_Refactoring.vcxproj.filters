@@ -13,48 +13,84 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Archivos de encabezado\Modelo">
+      <UniqueIdentifier>{e03f20d2-da31-4655-a880-9c752a36c747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Vista">
+      <UniqueIdentifier>{cb703c33-0326-48de-879b-13f048d59340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Controlador">
+      <UniqueIdentifier>{6a70221b-464a-4e29-8105-db54d1d4084c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Modelo">
+      <UniqueIdentifier>{ce26f5bf-cd70-4b95-8b61-29f6e05a2ec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Controlador">
+      <UniqueIdentifier>{1baff0fe-3218-4d29-a30e-221fab29daa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Vista">
+      <UniqueIdentifier>{b8387cd4-f70d-4c78-8780-3bf75a4e4239}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Collisions.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Player.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="goldBag.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Types.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>Archivos de encabezado\Modelo</Filter>
     </ClInclude>
     <ClInclude Include="Constants.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>Archivos de encabezado\Modelo</Filter>
     </ClInclude>
     <ClInclude Include="Game.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>Archivos de encabezado\Controlador</Filter>
+    </ClInclude>
+    <ClInclude Include="goldBag.h">
+      <Filter>Archivos de encabezado\Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Archivos de encabezado\Modelo</Filter>
     </ClInclude>
     <ClInclude Include="Renderer.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>Archivos de encabezado\Vista</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Archivos de encabezado\Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Archivos de encabezado\Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMenu.h">
+      <Filter>Archivos de encabezado\Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="ScenePlay.h">
+      <Filter>Archivos de encabezado\Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="Hud.h">
+      <Filter>Archivos de encabezado\Modelo</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Archivos de recursos</Filter>
     </ClCompile>
-    <ClCompile Include="Game.cpp">
-      <Filter>Archivos de recursos</Filter>
-    </ClCompile>
-    <ClCompile Include="Player.cpp">
-      <Filter>Archivos de recursos</Filter>
-    </ClCompile>
-    <ClCompile Include="Collisions.cpp">
-      <Filter>Archivos de recursos</Filter>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Archivos de recursos\Vista</Filter>
     </ClCompile>
     <ClCompile Include="goldBag.cpp">
-      <Filter>Archivos de recursos</Filter>
+      <Filter>Archivos de recursos\Modelo</Filter>
     </ClCompile>
-    <ClCompile Include="Renderer.cpp">
-      <Filter>Archivos de recursos</Filter>
+    <ClCompile Include="Game.cpp">
+      <Filter>Archivos de recursos\Controlador</Filter>
+    </ClCompile>
+    <ClCompile Include="Collisions.cpp">
+      <Filter>Archivos de recursos\Modelo</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Archivos de recursos\Modelo</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Archivos de recursos\Modelo</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMenu.cpp">
+      <Filter>Archivos de recursos\Modelo</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
