@@ -1,4 +1,6 @@
 #pragma once
+#include "Collisions.h"
+#include "Types.h"
 
 class Scene
 {

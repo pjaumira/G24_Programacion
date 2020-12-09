@@ -129,7 +129,8 @@ public:
 		return inputs;
 	};
 
-	bool mousePressed, moveP1left, moveP1Right, moveP1Up, moveP1Down;
+	bool mousePressed;
+	bool moveP1left, moveP1Right, moveP1Up, moveP1Down;
 	bool moveP2left, moveP2Right, moveP2Up, moveP2Down;
 	bool esc;
 };

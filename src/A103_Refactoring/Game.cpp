@@ -18,12 +18,36 @@ void Game::Run() {
 			case SDL_QUIT:
 				break;
 			case SDL_KEYDOWN:
+				if (Renderer::Instance()->event.key.keysym.sym == SDLK_ESCAPE) Inputs::Check()->esc = true;
+
+				if (Renderer::Instance()->event.key.keysym.sym == SDLK_w) Inputs::Check()->moveP1Up = true;
+				if (Renderer::Instance()->event.key.keysym.sym == SDLK_s) Inputs::Check()->moveP1Down = true;
+				if (Renderer::Instance()->event.key.keysym.sym == SDLK_a) Inputs::Check()->moveP1left = true;
+				if (Renderer::Instance()->event.key.keysym.sym == SDLK_d) Inputs::Check()->moveP1Right = true;
+
+				if (Renderer::Instance()->event.key.keysym.sym == SDLK_UP) Inputs::Check()->moveP2Up = true;
+				if (Renderer::Instance()->event.key.keysym.sym == SDLK_DOWN) Inputs::Check()->moveP2Down = true;
+				if (Renderer::Instance()->event.key.keysym.sym == SDLK_LEFT) Inputs::Check()->moveP2left = true;
+				if (Renderer::Instance()->event.key.keysym.sym == SDLK_RIGHT) Inputs::Check()->moveP2Right = true;
 				break;
 			case SDL_KEYUP:
+				if (Renderer::Instance()->event.key.keysym.sym == SDLK_ESCAPE) Inputs::Check()->esc = false;
+
+				if (Renderer::Instance()->event.key.keysym.sym == SDLK_w) Inputs::Check()->moveP1Up = false;
+				if (Renderer::Instance()->event.key.keysym.sym == SDLK_s) Inputs::Check()->moveP1Down = false;
+				if (Renderer::Instance()->event.key.keysym.sym == SDLK_a) Inputs::Check()->moveP1left = false;
+				if (Renderer::Instance()->event.key.keysym.sym == SDLK_d) Inputs::Check()->moveP1Right = false;
+
+				if (Renderer::Instance()->event.key.keysym.sym == SDLK_UP) Inputs::Check()->moveP2Up = false;
+				if (Renderer::Instance()->event.key.keysym.sym == SDLK_DOWN) Inputs::Check()->moveP2Down = false;
+				if (Renderer::Instance()->event.key.keysym.sym == SDLK_LEFT) Inputs::Check()->moveP2left = false;
+				if (Renderer::Instance()->event.key.keysym.sym == SDLK_RIGHT) Inputs::Check()->moveP2Right = false;
 				break;
 			case SDL_MOUSEBUTTONDOWN:
+				if (Renderer::Instance()->event.button.button == SDL_BUTTON_LEFT) { Inputs::Check()->mousePressed = true;}
 				break;
 			case SDL_MOUSEBUTTONUP:
+				if (Renderer::Instance()->event.button.button == SDL_BUTTON_LEFT) { Inputs::Check()->mousePressed = false; }
 				break;
 			default:
 				break;
