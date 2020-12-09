@@ -144,6 +144,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Button.h" />
     <ClInclude Include="Collisions.h" />
     <ClInclude Include="Constants.h" />
     <ClInclude Include="Game.h" />
@@ -165,6 +166,7 @@
     <ClCompile Include="Renderer.cpp" />
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="SceneMenu.cpp" />
+    <ClCompile Include="ScenePlay.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

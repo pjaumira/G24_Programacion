@@ -18,8 +18,8 @@ public:
 	GameState GetGameState();
 
 	virtual void gameLoop();
-	virtual void update();
-	virtual void draw();
+	virtual void Update();
+	virtual void Draw();
 };
 
 

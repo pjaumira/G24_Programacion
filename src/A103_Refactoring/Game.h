@@ -11,7 +11,7 @@ public :
 	Game();
 	~Game();
 
-	enum class gameState {MENU, PLAY};
+	enum class gameState {MENU, PLAY, EXIT};
 	gameState gameScene;
 
 	Scene* currentScene;

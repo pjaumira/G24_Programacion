@@ -15,5 +15,5 @@ public :
 	void Update();
 	void Draw();
 
-
+	int textWidth, textHeight, frameWidth, frameHeight;
 };

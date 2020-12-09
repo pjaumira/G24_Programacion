@@ -66,6 +66,9 @@
     <ClInclude Include="Hud.h">
       <Filter>Archivos de encabezado\Modelo</Filter>
     </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Archivos de encabezado\Modelo</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -90,6 +93,9 @@
       <Filter>Archivos de recursos\Modelo</Filter>
     </ClCompile>
     <ClCompile Include="SceneMenu.cpp">
+      <Filter>Archivos de recursos\Modelo</Filter>
+    </ClCompile>
+    <ClCompile Include="ScenePlay.cpp">
       <Filter>Archivos de recursos\Modelo</Filter>
     </ClCompile>
   </ItemGroup>

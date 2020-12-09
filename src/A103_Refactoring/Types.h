@@ -7,11 +7,9 @@
 #include <time.h>
 
 using Color = struct Color{
-
 	int r, g, b, a;
 	Color();
-	Color(int _r, int _g, int _b, int _a)
-	{
+	Color(int _r, int _g, int _b, int _a){
 		r = _r;
 		g = _g;
 		b = _b;
@@ -20,7 +18,6 @@ using Color = struct Color{
 };
 
 using Font = struct {
-
 	std::string id;
 	std::string path;
 	int size;
@@ -118,6 +115,23 @@ public:
 	}
 
 	inline const float* GetDeltaTime() const { return &deltaTime; }
+};
+
+class Inputs {
+
+public:
+
+	static Inputs* inputs;
+	Inputs();
+
+	static Inputs* Check() {
+		if (inputs == nullptr) { inputs = new Inputs; }
+		return inputs;
+	};
+
+	bool mousePressed, moveP1left, moveP1Right, moveP1Up, moveP1Down;
+	bool moveP2left, moveP2Right, moveP2Up, moveP2Down;
+	bool esc;
 };
 
 enum class EDirection { NONE = -1, UP, LEFT, DOWN, RIGHT, COUNT };
